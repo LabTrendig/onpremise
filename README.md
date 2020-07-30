@@ -2,6 +2,20 @@
 
 Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docker](https://www.docker.com/).
 
+git rename fork https://sentry.bjvsoft.net/
+
+    git remote rename origin fork
+    git remote -v
+    git remote add origin https://github.com/getsentry/onpremise.git
+ 
+    fork    git@github.com:LabTrendig/onpremise.git (fetch)
+    fork    git@github.com:LabTrendig/onpremise.git (push)
+    origin  https://github.com/getsentry/onpremise.git (fetch)
+    origin  https://github.com/getsentry/onpremise.git (push)
+
+     git push fork sentry_bjvsoft
+ 
+ 
 ## Requirements
 
  * Docker 17.05.0+
